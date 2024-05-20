@@ -1,0 +1,97 @@
+:root {
+    --cor-de-fundo: black;
+    --cor-de-preechimento: rgba(104, 210, 255, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: white;
+    font-size: 40px;
+}
+
+.titulo span {
+    color: var(--cor-de-preechimento);
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+    box-shadow: 0px 2px 0px 0px var(--cor-de-preechimento);
+}
+
+.txt-cabecario{
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+header> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nome-usuário{
+    color: var(--cor-de-preechimento);
+}
+
+/* ESTILO DAS CURIOSIDADES */
+
+section.topo-do-corpo{
+    padding: 40px 4%;
+    box-shadow: 0px 2px 0px 0px var(--cor-de-preechimento);
+}
+
+section.topo-do-corpo .interface{
+    margin-top: 50px;
+}
+
+.icone{
+    color: var(--cor-de-preechimento);
+    font-size: 150px;
+}
+
+.txt-curiosidades h2{
+    color: white;
+    padding: 10px 80px;
+}
+
+.txt-curiosidades p{
+    color: white;
+    padding: 20px 80px;
+}
+
+/* ESTILO DO FOOTER */
+
+footer{
+    padding: 40px 4%;
+}
+
+footer> .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
